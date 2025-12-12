@@ -6,29 +6,16 @@ Este repositório contém o teste automatizado desenvolvido como parte do desafi
 
 O objetivo do teste é validar o fluxo completo de reserva dentro do ambiente de testes do sistema de reservas online da Desbravador.
 
-### Objetivo do Teste Automatizado
+Foram automatizados dois cenários, um negativo e outro positivo.
 
-Automatizar o fluxo principal de reserva contendo os seguintes passos:
+Cenário Positivo:
 
-Acessar o endereço: https://reservas.desbravador.com.br/1111
+Marcar dias de hospedagem, selecionar hóspedes, verificar quarto STANDARD ST1 e efetuar o cadastro.
 
-Verificar disponibilidade de reserva por mínimo de 3 dias
+Cenário negativo:
 
-Selecionar o quarto STANDARD ST1
+Selecionar datas sem disponibilidade para reservas e verificar mensagem "Não temos apartamentos disponíveis paras os dias..."
 
-Adicionar 02 adultos e 01 criança até 05 anos
-
-Preencher os dados dos hóspedes
-
-Efetuar o pagamento com cartão de crédito:
-
-Número: 4000 0000 0000 0044
-
-Nome: DESBRAVADOR SOFTWARE
-
-Validade: 12/23
-
-CVC: 123
 
 #### Como Executar os Testes
 
